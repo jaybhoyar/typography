@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,ol,ul,li
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  Custom CSS */
+
+/* General CSS ---------------------- */
+ 
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D4CEA7;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    margin: 25px auto;
+}
+.padding-left {
+    padding-left: 30px;
+}
+/* Header -------------- */
+.header {
+    background-color: #F96115;
+}
+
+.nav-items {
+    padding: 25px 0;   
+}
+.nav-items a {
+    padding-right: 35px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*  lists Section */
+
+.col-1 {
+    background-color: #005979;
+    color: #D3D0A7;
+    padding: 20px 0;
+    padding-left: 50px;
+    line-height: 2;
+    margin: 20px 0;
+    margin-right: 30px;
+    justify-content: space-between;
+    width: 30%;
+    box-shadow: 10px 11px 9px -2px rgba(117,113,117,1);
+}
+
+ol {
+    list-style: decimal;
+}
+
+.primary-ol {
+    list-style: disc;
+    
+}
+.submenu-list {
+    list-style: square;
+
+}
+.fas {
+    color: black;
+    margin-right: 15px;
+    
+}
+.check-list li {
+   padding-bottom: 10px;
+}
+/*   Article --------- */
+.article-heading {
+    font-size: 32px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    padding: 10px 0;
+    letter-spacing: 1.5;
+
+}
+.zeropadding {
+    padding: 10px 0;
+}
+.para {
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #686556;
+    padding-bottom: 30px;
+}
+/* Footer */
+
+.footer {
+    background-color: #242C22;
+}
+.footer-nav {
+    padding: 40px 0;
+}
